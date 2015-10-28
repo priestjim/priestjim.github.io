@@ -351,7 +351,7 @@ $button-size: 1.5rem;
 }
 
 /* Default social media links in author sidebar */
-.author-social {
+.author-links {
   display: block;
   margin-bottom: 5px;
   @include font-rem(14);
@@ -384,7 +384,7 @@ $button-size: 1.5rem;
 		@include suffix(12,0.5);
 		h3,
 		p,
-		.author-social {
+		.author-links {
 			display: block;
 			max-width: 125px;
 		}
@@ -395,7 +395,7 @@ $button-size: 1.5rem;
 		p {
 			margin-bottom: 20px;
 		}
-		.author-social {
+		.author-links {
 			margin-bottom: 5px;
 		}
 	}
@@ -403,7 +403,7 @@ $button-size: 1.5rem;
 		h3,
 		.bio-photo,
 		p,
-		.author-social {
+		.author-links {
 			max-width: 150px;
 		}
 	}
@@ -425,7 +425,7 @@ $button-size: 1.5rem;
 		max-width: 100px;
 		@include rounded(150px);
 	}
-	.author-social {
+	.author-links {
 		display: inline-block;
 		margin-right: 10px;
 	}
@@ -433,7 +433,7 @@ $button-size: 1.5rem;
 		h3,
 		.bio-photo,
 		p,
-		.author-social {
+		.author-links {
 			max-width: 150px;
 		}
 	}
