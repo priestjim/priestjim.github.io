@@ -1,0 +1,75 @@
+# Site wide configuration
+
+title:            Seems legit...
+locale:           en_US
+url:
+timezone:         America/Los_Angeles
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - octopress-debugger
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+# Site owner
+owner:
+  name: Panagiotis "PJ" Papadomitsos
+  avatar: priestjim.jpg
+  bio: "Omnilectual know-it-all • Distributed Systems Architect @ Splunk • Erlang+Elixir addict • Fell into the Linux cauldron when young"
+  email: pj@ezgr.net
+  disqus-shortname: priestjim
+  twitter: priestjim
+  facebook: priestjim
+  google:
+    analytics: UA-32740464-2
+  github: priestjim
+  stackoverflow:
+  linkedin: priestjim
+  instagram: omnilectual
+  youtube: priestjim
+  soundcloud: priestjim
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image:
+        feature: gg.jpg
+        credit: tt83x
+        creditlink: http://tt83x.deviantart.com/art/Foggy-Golden-Gate-Bridge-361229183
+
+include: [".htaccess"]
+exclude: ["lib",
+  "config.rb",
+  "Capfile",
+  "config",
+  "log",
+  "Rakefile",
+  "Rakefile.rb",
+  "tmp",
+  "less",
+  "*.sublime-project",
+  "*.sublime-workspace",
+  "test",
+  "spec",
+  "Gruntfile.js",
+  "package.json",
+  "node_modules",
+  "Gemfile",
+  "Gemfile.lock",
+  "LICENSE",
+  "README.md"]
