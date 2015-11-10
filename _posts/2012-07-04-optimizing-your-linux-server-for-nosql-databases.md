@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Optimizing your Linux server for memory-based NoSQL databases (Part 1)
-excerpt: "Attach your local disks to a VM running on Citrix XenServer"
+excerpt: "Optimize your Linux server's kernel for memory-based NoSQL databases."
 tags: [kernel, linux, memcache, memory, nosql, redis]
 modified: 2012-07-04
 date: 2012-07-04

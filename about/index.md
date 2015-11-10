@@ -6,6 +6,8 @@ modified: 2015-10-18
 comments: true
 ---
 
+Download a PDF version of my professional resume <a href="{{ site.owner.resume }}" target="_blank">here</a>
+
 > **I AM**
 
 a **Distributed Systems Engineer** and **Infrastructure Automation Specialist** currently residing in San Francisco, CA.

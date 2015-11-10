@@ -30,7 +30,10 @@ owner:
   avatar: priestjim.jpg
   bio: "Omnilectual know-it-all • Distributed Systems Architect @ Splunk • Erlang+Elixir addict • Fell into the Linux cauldron when young"
   email: pj@ezgr.net
-  disqus-shortname: priestjim
+  resume: /assets/pdf/panagiotis-papadomitsos-resume-2015-11.pdf
+  chef: priestjim
+  disqus:
+    shortname: ezgr
   twitter: priestjim
   facebook: priestjim
   google:

@@ -12,7 +12,9 @@
 
   <h3 itemprop="name">{{ author.name }}</h3>
   <p>{{ author.bio }}</p>
+  {% if author.resume %}<a href="{{ author.resume }}" class="author-links" target="_blank"><i class="fa fa-fw fa-file-pdf-o"></i> Resume</a>{% endif %}
   {% if author.email %}<a href="mailto:{{ author.email }}" class="author-links" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>{% endif %}
+  {% if author.chef %}<a href="https://supermarket.chef.io/users/{{ author.chef }}" class="author-links" target="_blank"><i class="fa fa-fw fa-linux"></i> Chef</a>{% endif %}
   {% if author.twitter %}<a href="http://twitter.com/{{ author.twitter }}" class="author-links" target="_blank"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>{% endif %}
   {% if author.facebook %}<a href="http://facebook.com/{{ author.facebook }}" class="author-links" target="_blank"><i class="fa fa-fw fa-facebook-square"></i> Facebook</a>{% endif %}
   {% if author.google.plus %}<a href="http://plus.google.com/+{{ author.google.plus }}" class="author-links" target="_blank"><i class="fa fa-fw fa-google-plus-square"></i> Google+</a>{% endif %}
