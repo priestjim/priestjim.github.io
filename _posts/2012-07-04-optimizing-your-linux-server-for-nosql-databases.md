@@ -8,12 +8,12 @@ date: 2012-07-04
 comments: true
 ---
 
-**Hey!** This article was originally written for BugSense’s blog and was published on 2012-07-03. You can find the original post [here](http://blog.bugsense.com/post/26442766999/optimizing-your-linux-server-for-memory-based-nosql).
+**Hey!** This article was originally written for BugSense’s blog and was published on 2012-07-03. You can find the original post [here](http://blog.bugsense.com/post/26442766999/optimizing-your-linux-server-for-memory-based-nosql){:target="_blank"}.
 {: .notice}
 
 So you have been listening to the hype of NoSQL databases for some time now and how they can make you web applications run much faster and be more adaptive and welcoming to horizontal scaling and you’d like to try it too and see how it plays out for you. What you should know though, is that apart from setting up and configuring your selected flavor of NoSQL, be it something less complex, like **Memcache** or **Redis**, to more enterprise schemes like **Cassandra** or **HBase**, you will need eventually to optimize the server(s) hosting it to make the most out of your investment.
 
-**Word of the wise**: Please read [this](http://static.usenix.org/publications/login/2011-10/openpdfs/Burd.pdf) before even thinking about dumping your RDMBS in favor of a NoSQL backend. A NoSQL database is not a replacement for traditional relational databases, and it never will be.
+**Word of the wise**: Please read [this](http://static.usenix.org/publications/login/2011-10/openpdfs/Burd.pdf){:target="_blank"} before even thinking about dumping your RDMBS in favor of a NoSQL backend. A NoSQL database is not a replacement for traditional relational databases, and it never will be.
 
 Optimizing a Linux server is a humongous topic that touches multiple layers of the application stack and is not an exact science. In this article series we’ll mostly care about optimizing for the more lightweight bunch of NoSQL databases – the bunch that does not rely on a VM (such as Cassandra, HBase or Couch) but runs on native code (such as Memcache, Redis and Mongo) and we will begin by rebuilding the most essential component of any Linux server: **the kernel**.
 
