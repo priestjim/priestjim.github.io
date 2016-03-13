@@ -2,11 +2,11 @@
 layout: page
 title: Panagiotis "PJ" Papadomitsos
 tags: [panagiotis, papadomitsos, software, engineer, devops, distributed, systems, infrastructure, automation, erlang, elixir]
-modified: 2015-10-18
+modified: 2016-03-12
 comments: true
 ---
 
-Download a PDF version of my professional resume <a href="{{ site.owner.resume }}" target="_blank">here</a>
+Download a PDF version of my professional resume [here]({{ site.owner.resume }}){:title="{{ site.owner.name | xml_escape }} - Resume" target="_blank"}
 
 > **I AM**
 
@@ -14,19 +14,19 @@ a **Distributed Systems Engineer** and **Infrastructure Automation Specialist** 
 
 > **I OWN**
 
-a double-major'ed **BSc in Computer Engineering and Computer Science** from the Technological Educational Institute of Piraeus in Athens, Greece.
+a double major in **BSc in Computer Engineering and Computer Science** from the Technological Educational Institute of Piraeus in Athens, Greece.
 
 > **I ♥**
 
 everything UN*X. Linux, FreeBSD, Solaris all have a special place in my heart. I began working with FreeBSD and Linux around the turn of the millennium and Solaris followed shortly after.
 
-I also have a knack for Virtualization, having worked with pretty much every major virtualization solution available in the market including VMWare vSphere, Citrix XenServer, Redhat RHEV/KVM, AWS, OpenStack, OpenVZ and Docker.
+I also have a knack for Virtualization, having worked with pretty much every major virtualization solution available in the market including Mesos, Docker, VMWare vSphere, Citrix XenServer, Redhat RHEV/KVM, AWS, OpenStack and OpenVZ.
 
 Lastly, the last few years I've been working with Chef and its great ecosystem (chef-dk, test-kitchen, serverspec among others) and have contributed to or are actively maintaining a good amount of cookbooks and tools.
 
 > **I SPEAK**
 
-Erlang, Elixir, Ruby, Bash, Lua (and NGINX/Lua), Javascript, Python and Delphi, in order of fluency.
+Erlang, Elixir, Bash, Lua (and NGINX/Lua), Ruby, Javascript, Python and Delphi, in order of fluency.
 
 Also Greek, English, French and a little bit of Spanish.
 

@@ -22,7 +22,7 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
 
 # Site owner
 owner:
@@ -30,7 +30,7 @@ owner:
   avatar: priestjim.jpg
   bio: "Omnilectual know-it-all • Distributed Systems Architect @ Splunk • Erlang+Elixir addict • Fell into the Linux cauldron when young"
   email: pj@ezgr.net
-  resume: /assets/pdf/panagiotis-papadomitsos-resume-2015-11.pdf
+  resume: /assets/pdf/panagiotis-papadomitsos-resume-2016-3.pdf
   chef: priestjim
   disqus:
     shortname: ezgr
