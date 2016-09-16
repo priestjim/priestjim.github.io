@@ -9,7 +9,11 @@ Below is a non exhaustive list of work I've published from time to time.
 
 ## Talks
 
-* [Scaling RPC calls in Erlang and Elixir](https://www.youtube.com/watch?feature=player_embedded&v=xiPnLACtNeo){:target="_blank" rel="external nofollow"} / _Erlang Factory 2016_: A talk about the **gen_rpc** project, the reasons for its development, its architecture and performance.
+* [**Scaling RPC calls in Erlang and Elixir**](https://www.youtube.com/watch?feature=player_embedded&v=xiPnLACtNeo){:target="_blank" rel="external nofollow"} / _Erlang Factory 2016_: A talk about the **gen_rpc** project, the reasons for its development, its architecture and performance.
+
+## Books
+
+* [**Mastering Chef**](https://www.packtpub.com/networking-and-servers/mastering-chef){:target="_blank" rel="external nofollow"}: **Reviewed** the book **Mastering Chef** by _Mayank Joshi_ as Packt's Scientific Associate.
 
 ## Erlang Projects
 

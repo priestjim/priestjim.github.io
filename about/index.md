@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Panagiotis "PJ" Papadomitsos
-tags: [panagiotis, papadomitsos, software, engineer, devops, distributed, systems, infrastructure, automation, erlang, elixir]
-modified: 2016-03-12
+tags: [panagiotis, papadomitsos, software, engineer, devops, distributed, systems, infrastructure, automation, chef, ansible, erlang, elixir, golang]
+modified: 2016-09-16
 comments: true
 ---
 
@@ -20,13 +20,13 @@ a double major in **BSc in Computer Engineering and Computer Science** from the 
 
 everything UN*X. Linux, FreeBSD, Solaris all have a special place in my heart. I began working with FreeBSD and Linux around the turn of the millennium and Solaris followed shortly after.
 
-I also have a knack for Virtualization, having worked with pretty much every major virtualization solution available in the market including Mesos, Docker, VMWare vSphere, Citrix XenServer, Redhat RHEV/KVM, AWS, OpenStack and OpenVZ.
+I also have a knack for Virtualization, having worked with almost every major virtualization/containerization solution available in the market including Kubernetes, Docker, VMWare vSphere, Citrix XenServer, Redhat RHEV/KVM, AWS, OpenStack and OpenVZ.
 
-Lastly, the last few years I've been working with Chef and its great ecosystem (chef-dk, test-kitchen, serverspec among others) and have contributed to or are actively maintaining a good amount of cookbooks and tools.
+Lastly, the last few years I've been working with infrastructure automation and assorted ecosystems (Chef, Ansible, chef-dk, test-kitchen, serverspec among others) and have contributed to or are actively maintaining a good amount of cookbooks and tools.
 
 > **I SPEAK**
 
-Erlang, Elixir, Bash, Lua (and NGINX/Lua), Ruby, Javascript, Python and Delphi, in order of fluency.
+Go, Erlang, Elixir, Bash, Lua (and NGINX/Lua), Ruby, Javascript, Python and Delphi, in order of fluency.
 
 Also Greek, English, French and a little bit of Spanish.
 
