@@ -5,15 +5,17 @@ priestjim:
   avatar: priestjim.jpg
   bio: "Omnilectual know-it-all • Distributed Systems Architect @ Splunk • Erlang+Elixir addict • Fell into the Linux cauldron when young"
   email: pj@ezgr.net
+  resume: /assets/pdf/panagiotis-papadomitsos-resume-2016-6.pdf
+  chef: priestjim
   disqus:
     shortname: ezgr
   twitter: priestjim
   facebook: priestjim
   google:
-    plus: priestjim
     analytics: UA-32740464-2
   github: priestjim
+  stackoverflow:
   linkedin: priestjim
-  instagram: priestjim
+  instagram: omnilectual
   youtube: priestjim
   soundcloud: priestjim
