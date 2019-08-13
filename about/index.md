@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Panagiotis "PJ" Papadomitsos
-tags: [panagiotis, papadomitsos, software, engineer, devops, distributed, systems, infrastructure, automation, chef, ansible, erlang, elixir, golang]
+tags: [panagiotis, papadomitsos, software, engineer, devops, distributed, systems, infrastructure, kubernetes, istio, automation, chef, ansible, erlang, elixir, nodejs, golang]
 modified: 2016-09-16
 comments: true
 ---
@@ -20,18 +20,18 @@ a double major in **BSc in Computer Engineering and Computer Science** from the 
 
 everything UN*X. Linux, FreeBSD, Solaris all have a special place in my heart. I began working with FreeBSD and Linux around the turn of the millennium and Solaris followed shortly after.
 
-I also have a knack for Virtualization, having worked with almost every major virtualization/containerization solution available in the market including Kubernetes, Docker, VMWare vSphere, Citrix XenServer, Redhat RHEV/KVM, AWS, OpenStack and OpenVZ.
+I also have a knack for Virtualization, having worked with almost every major virtualization/containerization solution available in the market including Kubernetes/Istio, Docker, Google Cloud, AWS, VMWare vSphere, Citrix XenServer, Redhat RHEV/KVM, OpenStack and OpenVZ.
 
-Lastly, the last few years I've been working with infrastructure automation and assorted ecosystems (Chef, Ansible, chef-dk, test-kitchen, serverspec among others) and have contributed to or are actively maintaining a good amount of cookbooks and tools.
+Lastly, I hold 5+ years under my belt of infrastructure automation and assorted ecosystems (Chef, Ansible, chef-dk, test-kitchen, serverspec among others) and have contributed to or are actively maintaining a good amount of cookbooks and tools.
 
 > **I SPEAK**
 
-Go, Erlang, Elixir, Bash, Lua (and NGINX/Lua), Ruby, Javascript, Python and Delphi, in order of fluency.
+Erlang (*5+ years*), Elixir (*2+ years*), Javascript/NodeJS (*2+ years*), Go (*1 year*), Bash (*10+ years*), Lua (and NGINX/Lua) (*3+ years*), Python (*2+ years*), Ruby (*4+ years*) and Delphi ??.
 
 Also Greek, English, French and a little bit of Spanish.
 
 > **I ENJOY**
 
-playing acoustic fingerstyle guitar, listening to diverse genres of music and being a fanatic bookworm (technology, mathematics, astrophysics, religion and philosophy are my main areas of interest).
+playing acoustic fingerstyle guitar, listening to diverse genres of music and being a fanatic bookworm (technology, mathematics, astrophysics, physics and philosophy are my main areas of interest). Currently, astronomy and astrophotography occupy most of my free time.
 
 On my really really spare time, I slide on ice on a [board](http://en.wikipedia.org/wiki/SnowBoarding) or [skates](http://en.wikipedia.org/wiki/Ice_hockey).

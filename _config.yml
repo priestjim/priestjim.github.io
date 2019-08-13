@@ -1,14 +1,14 @@
 # Site wide configuration
 
-title:            Seems legit...
-locale:           en_US
-url:              http://ezgr.net
-timezone:         America/Los_Angeles
+title: Primordial Echo
+locale: en_US
+url: http://ezgr.net
+timezone: America/Los_Angeles
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
-markdown:    kramdown
+permalink: /:categories/:title/
+markdown: kramdown
 highlighter: rouge
 sass:
   sass_dir: _sass
@@ -28,9 +28,9 @@ kramdown:
 owner:
   name: Panagiotis "PJ" Papadomitsos
   avatar: priestjim.jpg
-  bio: "Omnilectual know-it-all • Distributed Systems Architect @ Splunk • Erlang+Elixir addict • Fell into the Linux cauldron when young"
+  bio: "Omnilectual know-it-all · Software Engineer @ Brex · Erlang/Elixir/Kubernetes · Fell into the Linux cauldron when young"
   email: pj@ezgr.net
-  resume: /assets/pdf/panagiotis-papadomitsos-resume-2016-9.pdf
+  resume: /assets/pdf/panagiotis-papadomitsos-resume-2019-8.pdf
   chef: priestjim
   disqus:
     shortname: ezgr
@@ -46,8 +46,7 @@ owner:
   soundcloud: priestjim
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       image:
@@ -56,23 +55,26 @@ defaults:
         creditlink: http://tt83x.deviantart.com/art/Foggy-Golden-Gate-Bridge-361229183
 
 include: [".htaccess"]
-exclude: ["lib",
-  "config.rb",
-  "Capfile",
-  "config",
-  "log",
-  "Rakefile",
-  "Rakefile.rb",
-  "tmp",
-  "less",
-  "*.sublime-project",
-  "*.sublime-workspace",
-  "test",
-  "spec",
-  "Gruntfile.js",
-  "package.json",
-  "node_modules",
-  "Gemfile",
-  "Gemfile.lock",
-  "LICENSE",
-  "README.md"]
+exclude:
+  [
+    "lib",
+    "config.rb",
+    "Capfile",
+    "config",
+    "log",
+    "Rakefile",
+    "Rakefile.rb",
+    "tmp",
+    "less",
+    "*.sublime-project",
+    "*.sublime-workspace",
+    "test",
+    "spec",
+    "Gruntfile.js",
+    "package.json",
+    "node_modules",
+    "Gemfile",
+    "Gemfile.lock",
+    "LICENSE",
+    "README.md",
+  ]

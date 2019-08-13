@@ -19,7 +19,7 @@ What we already know is that XenServer uses the well-praised Linux 2.6 kernel ri
 Now, after some digging, I found out that the Xen hypervisor (the XAPI backend to be precise) actually utilized the udev-created device nodes in the /dev tree to attach physically connected devices to the VMs.
 
 **This is done by simply creating a symlink of the device in question (i.e. sda, sdb, sdc etc.) inside the /dev/xapi/block directory!
-So what I did was to modify the server’s /etc/udev/rules.d/50-udev.rules and add these lines (sdb was the detected device name of my drive):**
+So what I did was to modify the server's /etc/udev/rules.d/50-udev.rules and add these lines (sdb was the detected device name of my drive):**
 
 {% highlight cfg %}
 ACTION=="add", KERNEL=="sdb", SYMLINK+="xapi/block/%k", RUN+="/bin/sh -c '/opt/xensource/libexec/local-device-change %k 2>&1 >/dev/null&'"
@@ -32,10 +32,10 @@ ACTION=="remove", KERNEL=="sdb", RUN+="/bin/sh -c '/opt/xensource/libexec/local-
 The code above adds 2 actions to udev:
 
 * When the device is detected, add a symlink to /dev/xapi/block/(kernel name given to the device) and run a script (this was copied from the USB mass storage device detection rules)
-* When the device is removed (that is, if the disk is detached by hot-unplugging it-this is a whole procedure, don’t try this at home if you don’t do your research first), run the same script as in "add"
+* When the device is removed (that is, if the disk is detached by hot-unplugging it-this is a whole procedure, don't try this at home if you don't do your research first), run the same script as in "add"
 
 After rebooting the server, the hard disk was immediately recognized, symlinked to the /dev/xapi/block directory and was available through the xe command or XenCenter, waiting to be attached to a VM! As a nice extra, in Citrix XenServer, the USB-attached mass storage device is not emulated as a drive attached to an emulated USB controller. Rather, it is connected through an emulated SCSI controller and led by a near-native speed PVOPS driver on Linux guests, effectively removing any bandwidth limit posed by emulating USB without loosing the hot-plugging ability!
 
-In the end, attaching the disk was a breeze and the transfer rate of the drive prove the effort’s worth as I got more than 50 MB/s throughput, doing network file copy over CIFS and GbE.
+In the end, attaching the disk was a breeze and the transfer rate of the drive prove the effort's worth as I got more than 50 MB/s throughput, doing network file copy over CIFS and GbE.
 
-That’s it! Feedback is always welcome :)
+That's it! Feedback is always welcome :)

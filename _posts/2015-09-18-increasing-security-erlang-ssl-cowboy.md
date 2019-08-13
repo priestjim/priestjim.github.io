@@ -116,6 +116,7 @@ In Cowboy, you can enable these options as part of the https listener initializa
     [{max_keepalive, 1024}, {env, [{dispatch, Dispatch}]}]).
 
 {% endhighlight erlang %}
+
 ## RabbitMQ configuration
 
 In RabitMQ, you can enable these options in the rabbitmq.config file:
